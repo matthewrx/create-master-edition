@@ -1,0 +1,30 @@
+{
+  "name": "create-master-edition",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "createMasterEdition": "ts-node src/client/createMasterEdition.ts"
+  },
+  "author": "@mvtthewrx",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@solana/spl-token": "^0.3.10",
+    "@solana/web3.js": "^1.87.6",
+    "@tsconfig/recommended": "^1.0.3",
+    "@types/bn.js": "^5.1.5",
+    "@types/eslint": "^8.56.1",
+    "@types/mz": "^2.7.8",
+    "@types/yaml": "^1.9.7",
+    "base64-js": "^1.5.1",
+    "bignumber.js": "^9.1.2",
+    "borsh": "0.6.0",
+    "bs58": "^5.0.0",
+    "crypto": "^1.0.1",
+    "eslint": "^8.56.0",
+    "mz": "^2.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "yaml": "^2.3.4"
+  }
+}
